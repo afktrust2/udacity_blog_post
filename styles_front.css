@@ -13,8 +13,16 @@ ul {
   margin-top: 12.2%;
   padding: 0;
   bottom: 0;
-
 }
+
+article{
+  font-size: 16px;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: 5px solid lightgrey;
+}
+
 li{
   display: inline;
   float: left;
@@ -42,6 +50,10 @@ p{
 
 a{
   text-decoration: underline;
+}
+
+.date{
+  color: darkgrey;
 }
 
 .title{
