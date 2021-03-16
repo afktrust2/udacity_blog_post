@@ -1,5 +1,5 @@
 header{
-  height: 360px;
+  height: 200px;
   background-image: url(https://www.publicdomainpictures.net/pictures/80000/velka/kitty-cat-1395206763uwr.jpg);
   background-color: #5F9EA0;
   margin-bottom: 20px
@@ -32,13 +32,12 @@ h1{
   text-align: center;
 }
 h3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 2px;
   text-decoration: underline;
 }
 
 p{
-  margin: 5px;
+  margin: 2px;
 }
 
 a{
@@ -53,8 +52,8 @@ a{
 
 .navbar{
   display: block;
-  width: 200px;
-  height: 75px;
+  width: 65px;
+  height: 25px;
   padding: 8px;
   text-align: center;
   align-items: center;
@@ -74,39 +73,37 @@ a{
   grid-area: main4;
 }
 
-@media(max-width: 320px) {
-  .container{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 300px 300px;
-    grid-template-areas:
-    "main1"
-    "main2"
-    "main3"
-    "main4";
-    margin: auto;
-    grid-gap: 10px;
-    justify-content: center;
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-areas:
+  "main1"
+  "main2"
+  "main3"
+  "main4";
+  margin: auto;
+  grid-gap: 10px;
+  justify-content: center;
 
-  }
+}
 
-  .box{
-    font-size: 20px;
-    /* width: 300px;
-    height: 200px; */
-    border: 5px solid lightgrey;
-    margin: 10px;
-  }
+.box{
+  font-size: 15px;
+  width: auto;
+  height: 200px;
+  border: 5px solid lightgrey;
+}
 
-  .blog{
-    width: 450px;
-    height: 750px;
-    border: 1px solid black;
-  }
+.blog{
+  width: 450px;
+  height: 750px;
+  border: 1px solid black;
 }
 
 
+/*
 @media(min-width:600px) and (max-width:900px){
   .container{
     display: grid;
@@ -127,10 +124,10 @@ a{
   }
   .box{
     font-size: 32px;
-    /* width: 350px; */
-    /* height: 200px; */
+    width: 350px;
+    height: 200px;
     border: 5px solid #d3d3d3;
-    /* margin: 10px; */
+    margin: 10px;
   }
 
   .blog{
@@ -163,10 +160,10 @@ a{
   }
   .box{
     font-size: 28px;
-    /* width: 500px;
-    height: 250px; */
+    width: 500px;
+    height: 250px;
     border: 5px solid #d3d3d3;
-    /* margin: 10px; */
+    margin: 10px;
   }
 
   .blog{
@@ -178,4 +175,4 @@ a{
     font-size: 28px;
   }
 
-}
+} */
