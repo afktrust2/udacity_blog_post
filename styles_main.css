@@ -1,2 +1,3 @@
-@import "styles_front.css";
-@import "page1_styles.css";
+@import "styles_mobile.css";
+@import "styles_tablet.css";
+@import "style_desktop.css";
